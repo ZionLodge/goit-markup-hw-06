@@ -32,7 +32,11 @@
           >
           <ul class="list header-navbar-menu">
             <li>
-              <a class="header-nav-link link" href="./index.html">Studio</a>
+              <a
+                class="header-nav-link link studio-nav-link"
+                href="./index.html"
+                >Studio</a
+              >
             </li>
             <li>
               <a class="header-nav-link link" href="./portfolio.html"
@@ -447,13 +451,39 @@
             </li>
           </ul>
         </div>
+        <!-- Subscription Form -->
+        <div class="footer-form-div">
+          <p class="footer-form-p">Subscribe</p>
+          <form
+            class="footer-form-form"
+            novalidate
+            autocomplete="off"
+            name="footer-form"
+          >
+            <label class="footer-form-label">
+              <input
+                class="footer-form-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-form-button">
+              Subscribe
+              <svg class="footer-form-svg" width="24" height="24">
+                <use href="./images/icons.svg#send-icon"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <!-- Modal Hero Section -->
     <div data-modal class="modal-div is-hidden">
       <div class="modal-container">
         <button type="button" class="modal-button" data-modal-close>
           <svg width="8" height="8" class="modal-svg">
-            <use href="./images/icons.svg#icon-linkedin-1"></use>
+            <use href="./images/icons.svg#close-button"></use>
           </svg>
         </button>
       </div>
